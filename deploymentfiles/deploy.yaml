@@ -24,6 +24,6 @@ spec:
     spec:
       containers: 
       - name: facebook-container
-        image: tomcat
+        image: dockerhub1105/practicerepo:'7'
         ports:
         - containerPort: 8080
