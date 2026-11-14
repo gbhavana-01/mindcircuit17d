@@ -24,6 +24,6 @@ spec:
     spec:
       containers: 
       - name: facebook-container
-        image: dockerhub1105/practicerepo:12
+        image: dockerhub1105/practicerepo:mc_app_img
         ports:
         - containerPort: 8080
