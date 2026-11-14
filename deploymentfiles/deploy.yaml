@@ -19,11 +19,11 @@ spec:
       labels:
         app: fb-app
         env: prod
-        version: v1
+        version: v2
 
     spec:
       containers: 
       - name: facebook-container
-        image: dockerhub1105/practicerepo:mc_app_img
+        image: dockerhub1105/practicerepo:customer_v1
         ports:
         - containerPort: 8080
